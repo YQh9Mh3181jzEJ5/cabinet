@@ -47,3 +47,21 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 2438)
 
 
+Started GET "/" for 127.0.0.1 at 2023-03-29 19:45:24 +0900
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 8.7ms | Allocations: 7329)
+  Rendered layout layouts/application.html.erb (Duration: 63.7ms | Allocations: 40986)
+Completed 200 OK in 75ms (Views: 67.6ms | ActiveRecord: 0.0ms | Allocations: 44150)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-29 19:45:47 +0900
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.haml within layouts/application
+  Rendered welcome/index.html.haml within layouts/application (Duration: 2.7ms | Allocations: 1894)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 4471)
+Completed 200 OK in 14ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 5214)
+
+
